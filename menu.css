@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url('assets/images/fast-food.avif') no-repeat fixed;
+    background-size: 100%;
+    background-color: rgb(196, 226, 255);
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav h1{
+    font-size: 70px;
+    color: rgb(55, 42, 42);
+}
+.nav-img{
+    width: 150px;
+}
+
+.recipe-table{
+    background-color: azure;
+    padding: 50px;
+    border-radius: 15px;
+    max-width: 70%;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+.recipe-table p{
+    margin: 30px;
+}
+
+button{
+    padding: 20px 30px;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    margin: 30px;
+    margin-left: 80%;
+}

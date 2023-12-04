@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="nav">
+        <img src="assets/images/spoon_and_fork.png" alt="" class="nav-img">
+        <h1><i>Eat Recipe</i></h1>
+    </div>
+    <div class="sign-up">
+        <form onsubmit="changePage(event)">
+            <div>
+                <label for="email">Email: </label>
+                <input id="email" type="email" required>
+            </div>
+            <div>
+                <label for="password">Password: </label>
+                <input id="password" type="password" required>
+            </div>
+            <button type="submit">Sign up</button>
+        </form>
+    </div>
+</body>
+</html>
