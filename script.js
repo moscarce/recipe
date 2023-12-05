@@ -24,7 +24,7 @@ const registerUser = (password, mail) =>{
       });
 
       xhr.onload = function(){
-        console.log(xhr.status)
+        console.log(xhr.response)
       }
 
     //   fetch('https://1128-62-173-45-70.ngrok.io/recipe-management/register', {
