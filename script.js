@@ -18,10 +18,7 @@ const registerUser = (password, mail) =>{
 
       xhr.setRequestHeader('Content-Type', 'application/json')
       
-      xhr.send({
-        "email": `${mail}`,
-        "password": `${password}`
-      });
+      xhr.send(JSON.stringify(registrationData));
 
       xhr.onload = function(){
         console.log(xhr.response)
