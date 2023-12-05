@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background: url('assets/images/fast-food.avif');
+    background: url('../assets/images/fast-food.avif');
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 5%;
