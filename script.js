@@ -13,8 +13,6 @@ const registerUser = (password, mail) =>{
         "password": password
       };
 
-      console.log(password, mail)
-
       let xhr = new XMLHttpRequest()
       xhr.open('POST', "https://87f1-105-112-75-119.ngrok.io/recipe-management/register")
 
@@ -25,7 +23,7 @@ const registerUser = (password, mail) =>{
         "password": `${password}`
       });
 
-      xhr.load = function(){
+      xhr.onload = function(){
         console.log(xhr.status)
       }
 
